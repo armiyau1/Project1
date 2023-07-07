@@ -1,0 +1,128 @@
+
+.first-heading{
+    position: relative;
+    display:inline-block;
+    color: rgb(8, 8, 151);
+    justify-content: center;
+    display: flex;
+
+
+
+}                  
+.first-heading::after{
+    content: "";
+    position:absolute;
+    left: 2;
+    bottom: -2px;
+    width: 4%;
+    height: 1px;
+    background-color: rgb(8, 8, 151);
+}         
+.container{
+    display: flex;
+    align-items: flex-start;
+
+}   
+.image-container{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+
+}
+.text{
+    flex: 1;
+}          
+.line{
+    line-height: 1;
+}
+.container2{
+    display: flex;
+    align-items: flex-start;
+}
+.image2{
+    margin-right: 20px;
+}
+.text2{
+    flex:1
+}
+.container3{
+    overflow: auto;
+}
+.image3{
+    float:left;
+    margin-right: 20px;
+    width: 250px;
+
+}
+.text3{
+    overflow: hidden;
+}
+
+
+.container4{
+    overflow: auto;
+}
+.image4{
+    float:left;
+    margin-right: 20px;
+    width: 250px;
+
+}
+.text4{
+    overflow: hidden;
+}
+.container5{
+    overflow: auto;
+}
+.image5{
+    float:left;
+    margin-right: 20px;
+    width: 250px;
+
+}
+.text5{
+    overflow: hidden;
+}
+
+.container6{
+    overflow: auto;
+}
+.image6{
+    float:left;
+    margin-right: 20px;
+    width: 250px;
+
+}
+.text6{
+    overflow: hidden;
+}
+
+.container7{
+    overflow: auto;
+}
+.image7{
+    float:left;
+    margin-right: 20px;
+    width: 250px;
+
+}
+.text7{
+    overflow: hidden;
+}
+
+.img0{
+    width: 250px;
+}
+
+.body-container{
+    background: rgb(240, 240, 216);
+}
+.featured-text{
+    text-decoration: underline; color: blue;
+}
+button{
+    color:blue;
+     border-radius: 10px;
+     background-color: rgb(240, 240, 216);
+     border: solid  rgb(60, 60, 182);
+}
