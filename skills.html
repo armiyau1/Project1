@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="show-me" >
+    <main >
+    <h1> MY SKILLS ARE 
+    </h1>
+    <h2>HTML </h2>
+    <h2>CSS </h2>
+    <h2>JAVASCRIPT </h2>
+    <h2>GIT&GITHUB </h2>
+    <h2>SHELL SCRIPTING </h2>
+    <h2>LINUX&C PROGRAMMING </h2>
+    <img src="me.jpg">
+</main>
+
+
+
+    <style>
+    body{
+                    background: #081b29;
+            color: white;
+            
+            opacity: 0;
+        }
+body.showing{
+            opacity: 1;
+            transition: opacity 0.7s;
+        }
+        img{
+            width: 500px;
+            height: 400px;
+            float: right;
+
+        }
+        h1,h2:hover{
+            color: rgb(61, 18, 18);
+        }
+    </style>
+    <script>
+        let showM=document.getElementById("show-me")
+        function show(){
+            showM.className="showing"
+            
+        }
+        setTimeout(show,3000)
+
+    </script>
+</body>
+</html>
